@@ -1,0 +1,79 @@
+/* Container styling */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="password"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.2s ease;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #0077ff;
+    outline: none;
+  }
+  
+  /* Button */
+  button[type="submit"] {
+    padding: 12px;
+    background-color: #0077ff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005fd6;
+  }
+  
+  /* Registration text */
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  p a {
+    color: #0077ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 4px;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
